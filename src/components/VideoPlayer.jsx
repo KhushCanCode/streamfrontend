@@ -14,7 +14,7 @@ function VideoPlayer({videoId}) {
   return (
     
     <video ref={videoRef} className=' w-full rounded-xl' controls autoPlay >
-        <source src={`https://streamsbackend2.vercel.app/videos/${videoId}`} type="video/mp4" />
+        <source src={`https://streambackend.vercel.app/videos/${videoId}`} type="video/mp4" />
         Your browser does not support the video tag.
     </video>
   )
